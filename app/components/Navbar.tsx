@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "../lib/utils";
 import Link from "next/link";
-import { Spotlight } from "./ui/Spotlight";
+
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -15,7 +15,6 @@ function Navbar({ className }: { className?: string }) {
         className
       )}
     >
-      <Spotlight className="-top-40 md:left-60 md:top-70" fill="white" />
       <Menu setActive={setActive}>
         <Link href="/">
           <MenuItem setActive={setActive} active={active} item="Home">
