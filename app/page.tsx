@@ -1,10 +1,13 @@
+import FeaturedCourses from "./components/FeaturedCourses";
 import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen w-screen">
+    <div className="flex  flex-col justify-center items-center  m-auto">
       {/* <h1 className=" text-4xl text-center  text-white">Hii wahid</h1> */}
       <HeroSection />
+
+      <FeaturedCourses />
     </div>
   );
 }

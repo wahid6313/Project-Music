@@ -71,7 +71,7 @@ export function Button({
 
 export const MovingBorder = ({
   children,
-  duration = 3000,
+  duration = 4000,
   rx,
   ry,
   ...otherProps
