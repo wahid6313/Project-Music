@@ -21,7 +21,7 @@ function HeroSection() {
           <Link href={"/music"}>
             <Button
               borderRadius="1.75rem"
-              className="font-bold dark-bg-black text-white dark-text-white border-neutral-200 dark:border-slate-800 "
+              className="font-bold dark-bg-black text-white dark-text-white border-neutral-200 dark:border-slate-800 hover:text-gray-300"
             >
               Explore Music
             </Button>
