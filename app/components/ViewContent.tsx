@@ -11,6 +11,12 @@ const musicContent = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white font-semibold text-xl">
         Melodic Collaborations
+        {/* <div>
+          <img src="https://images.genius.com/7e253fddd5ee3b1c8fd534de1593d9db.1000x1000x1.png">
+            music image
+          </img>
+
+        </div> */}
       </div>
     ),
   },
