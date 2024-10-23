@@ -1,5 +1,6 @@
 import FeaturedCourses from "./components/FeaturedCourses";
 import HeroSection from "./components/HeroSection";
+import SlidingCards from "./components/SlidingCards";
 import ViewContent from "./components/ViewContent";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 
       <FeaturedCourses />
       <ViewContent />
+      <SlidingCards />
     </div>
   );
 }

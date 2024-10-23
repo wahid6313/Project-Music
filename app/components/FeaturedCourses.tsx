@@ -50,7 +50,7 @@ function FeaturedCourses() {
       </div>
       <div className="mt-16 mb-6 rounded-lg">
         <Link href="/viewMusic">
-          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-green-700 hover:bg-gray-900 hover:text-gray-300">
+          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-green-700 hover:bg-gray-900 hover:text-gray-300 mb-10">
             View All Music
           </button>
         </Link>
