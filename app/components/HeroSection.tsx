@@ -18,7 +18,7 @@ function HeroSection() {
           feelings we can't always put into words.
         </p>
         <div className="mt-10 text-white  w-50 items-center mb-10">
-          <Link href={"/music"}>
+          <Link href={"https://music.apple.com/us/new"}>
             <Button
               borderRadius="1.75rem"
               className="font-bold dark-bg-black text-white dark-text-white border-neutral-200 dark:border-slate-800 hover:text-gray-300"

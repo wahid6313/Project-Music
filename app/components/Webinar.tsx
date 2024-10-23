@@ -45,7 +45,7 @@ function Webinar() {
   return (
     <div className="flex flex-col justify-center items-center dark:bg-black w-full">
       <div className="text-center mt-20 dark:bg-black">
-        <h2 className="text-green-700 text-2xl font-bold">Featured Webinar</h2>
+        <h2 className="text-gray-600 text-2xl font-bold">Featured Webinar</h2>
         <p className="text-4xl font-bold mt-4 mb-10">
           Enhance Your Musical Journey
         </p>
@@ -61,7 +61,7 @@ function Webinar() {
       </div>
       <div className="flex  items-center justify-center">
         <Link href="https://www.youtube.com/channel/UCtFOW7jJXChfFNoucRFqRmw">
-          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-green-700 hover:bg-gray-900 hover:text-gray-300  mt-6 mb-10">
+          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-gray-700 hover:bg-gray-900 hover:text-gray-300  mt-6 ">
             View All Webinars
           </button>
         </Link>

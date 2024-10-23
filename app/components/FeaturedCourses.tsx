@@ -21,7 +21,7 @@ function FeaturedCourses() {
   return (
     <div className=" bg-gray-900 w-full text-center ">
       <div>
-        <h1 className="text-2xl text-green-700  mt-10"> Featured Music</h1>
+        <h1 className="text-2xl text-gray-400  mt-10"> Featured Music</h1>
         <p className="text-3xl mt-3 tracking-tight font-bold sm:text-4xl ">
           Listen with best Music
         </p>
@@ -50,7 +50,7 @@ function FeaturedCourses() {
       </div>
       <div className="mt-16 mb-6 rounded-lg">
         <Link href="/viewMusic">
-          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-green-700 hover:bg-gray-900 hover:text-gray-300 mb-10">
+          <button className="px-6 py-4 font-semibold rounded-lg bg-black text-white border border-gray-700 hover:bg-gray-900 hover:text-gray-300 mb-10">
             View All Music
           </button>
         </Link>
