@@ -49,7 +49,7 @@ const musicSlidingCards = [
 
 function SlidingCards() {
   return (
-    <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.06] relative flex flex-col items-center justify-center overflow-hidden">
+    <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.08] relative flex flex-col items-center justify-center overflow-hidden">
       <div className="font-semibold text-4xl my-14 text-center w-full">
         <h2>Hear Our Harmony: Voices Of Success</h2>
       </div>

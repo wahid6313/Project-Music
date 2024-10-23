@@ -2,6 +2,7 @@ import FeaturedCourses from "./components/FeaturedCourses";
 import HeroSection from "./components/HeroSection";
 import SlidingCards from "./components/SlidingCards";
 import ViewContent from "./components/ViewContent";
+import Webinar from "./components/Webinar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedCourses />
       <ViewContent />
       <SlidingCards />
+      <Webinar />
     </div>
   );
 }
