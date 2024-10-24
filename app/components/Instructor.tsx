@@ -3,7 +3,7 @@ import React from "react";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
 import { WavyBackground } from "./ui/wavy-background";
 
-const people = [
+const instructor = [
   {
     id: 1,
     name: "John Doe",
@@ -59,7 +59,7 @@ function Instructor() {
           journey
         </p>
         <div className="flex flex-row items-center justify-center mt-20 w-full">
-          <AnimatedTooltip items={people} />
+          <AnimatedTooltip items={instructor} />
         </div>
       </WavyBackground>
     </div>
