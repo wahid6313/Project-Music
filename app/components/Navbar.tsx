@@ -27,6 +27,7 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/language">Arabic</HoveredLink>
             <HoveredLink href="/language">Malyalam</HoveredLink>
             <HoveredLink href="/language">Urdu</HoveredLink>
+            <HoveredLink href="/language">Korean</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem
